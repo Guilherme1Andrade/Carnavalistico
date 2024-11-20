@@ -1,0 +1,472 @@
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+    padding: 20px;
+    border-bottom: solid 2px steelblue;
+    background-color: skyblue;
+    color: steelblue;
+}
+
+.titulo-site {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.menu-topo ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-topo ul li {
+    margin-left: 20px;
+}
+
+.menu-topo ul li a {
+    color: steelblue;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.menu-topo ul li a:hover {
+    background-color: white;
+    color: steelblue;
+}
+
+
+body.inicio {
+    color: steelblue;
+    background: skyblue;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+
+header{
+    border-bottom:solid 2px steelblue;
+    padding: 20px;
+    font-size: 32px;
+    color:steelblue;
+}
+
+.chamada {
+    background: steelblue;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+img {
+    height: 200px;
+}
+
+.categoria-desfiles {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-desfiles img {
+    opacity: 0.65;
+    height: 200px;
+}
+
+.categoria-desfiles img:hover {
+    opacity: 1.0;
+    border: 2px solid red
+}
+
+.categoria h2 {
+    color:steelblue
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.escolas {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.brasoes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.brasoes-container a img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.brasoes-container a img:hover {
+    transform: scale(1.1);
+}
+
+.titulo-escola {
+    font-size: 36px;
+    color: white;
+    background-color: steelblue;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.sambas {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.sambas img {
+    opacity: 0.65;
+    height: 200px;
+}
+
+.sambas img:hover {
+    opacity: 1.0;
+    border: 2px solid red
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-bottom: 0;
+}
+
+.menu-topo {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.noticias {
+    padding: 20px;
+    background-color: skyblue;
+    margin-top: 0;
+}
+
+.timeline {
+    display: block;
+    margin: 0 auto;
+}
+
+.noticia {
+    display: flex;
+    flex-direction: row; 
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 100%; 
+    box-sizing: border-box; 
+    margin-bottom: 20px; 
+}
+
+.noticia img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.conteudo {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.conteudo h3 {
+    font-size: 2em;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+}
+
+.conteudo p.lide {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.conteudo a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.conteudo a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    margin-top: 0;
+}
+
+
+footer {
+    margin-top: 0;
+}
+
+.titulo-site, .menu-topo a {
+    transition: color 0.3s ease;
+}
+
+.titulo-site:hover, .menu-topo a:hover {
+    color: steelblue; 
+}
+
+a {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+.header {
+    background-color: #282828;
+    padding: 20px;
+    text-align: center;
+}
+
+.header .logo h1 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.news-details {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.news-article {
+    padding: 20px;
+}
+
+.article-header h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.article-date {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.article-thumbnail img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.article-content {
+    margin-top: 30px;
+    line-height: 1.6;
+}
+
+.article-footer {
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #282828;
+    color: #fff;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+    padding: 20px;
+    border-bottom: solid 2px steelblue;
+    background-color: skyblue;
+    color: steelblue;
+    font-family: "Chakra Petch", sans-serif; 
+}
+
+
+.titulo-site {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+.menu-topo ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-topo ul li {
+    margin-left: 20px;
+}
+
+.menu-topo ul li a {
+    color: steelblue;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.menu-topo ul li a:hover {
+    background-color: white;
+    color: steelblue;
+}
+
+
+body {
+    font-family: "Chakra Petch", sans-serif; /* Usando a mesma fonte para o corpo */
+    color: steelblue;
+    background: skyblue;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+
+header {
+    margin-bottom: 0;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #282828;
+    color: #fff;
+}
+
+.article-header {
+    background-color: #282828; /* Cor de fundo branca */
+    color: steelblue; /* Texto azul para combinar */
+    padding: 15px;
+    border-radius: 8px; /* Bordas arredondadas, se desejar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona sombra para destacar */
+}
+
+.article-header h2 {
+    color: #ffffff; /* Escolha a cor desejada */
+}
+
+.article-content {
+    color: #333; /* Substitua #333 pela cor desejada */
+}
+
+/* Estilo exclusivo para o título "Últimas Notícias" */
+.noticias h2 {
+    font-size: 3.5rem; /* Destaque no tamanho */
+    font-family: 'Chakra Petch', sans-serif; /* Fonte estilizada */
+    color: #fff; /* Texto branco */
+    text-align: center; /* Centralizado */
+    margin: 20px auto; /* Espaçamento externo */
+    padding: 15px 20px; /* Espaçamento interno */
+
+    /* Fundo degradê moderno */
+    background: linear-gradient(90deg, #4682b4, #87ceeb);
+    border-radius: 25px; /* Bordas arredondadas em tudo */
+    border: 2px solid #1e90ff; /* Borda discreta */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Sombra suave */
+
+    position: relative;
+    overflow: hidden;
+}
+
+.noticias h2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 200%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    transform: skewX(-45deg);
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.noticias h2:hover::before {
+    left: 100%;
+}
+
+/* Impede que o efeito sobreponha o texto */
+.noticias h2 span {
+    position: relative;
+    z-index: 2;
+}
+
+
+
+.article-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.article-date {
+    margin-top: 10px; /* Ajuste o valor conforme necessário */
+}
+
+
